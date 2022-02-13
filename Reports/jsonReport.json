@@ -1,0 +1,960 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-13T05:10:26.374Z",
+        "line": 34,
+        "name": "Login to trade Journal App with invalid credentials",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4726080000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194029000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters invalid username \"Ahmed\" and invalid password \"Super\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ahmed\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Super\"",
+                  "offset": 58
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_invalid_username_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292479000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79061000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40866000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:31.863Z",
+        "line": 35,
+        "name": "Login to trade Journal App with invalid credentials",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 135434000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147296000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters invalid username \"Ahmad123\" and invalid password \"Super123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ahmad123\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"Super123\"",
+                  "offset": 61
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_invalid_username_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262184000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66444000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36538000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:32.537Z",
+        "line": 36,
+        "name": "Login to trade Journal App with invalid credentials",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-invalid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 149890000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170689000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters invalid username \"Ahmeed4\" and invalid password \"SuperAhmed123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ahmeed4\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"SuperAhmed123!\"",
+                  "offset": 60
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_invalid_username_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276681000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47716000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29441000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:33.235Z",
+        "line": 37,
+        "name": "Login to trade Journal App with invalid credentials",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-invalid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 168410000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163545000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters invalid username \"AhmedBoreeni\" and invalid password \"SuperAhmad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AhmedBoreeni\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"SuperAhmad\"",
+                  "offset": 65
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_invalid_username_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265025000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43656000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34093000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:33.932Z",
+        "line": 48,
+        "name": "Login to trade Journal App with valid Username and invalid Password",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-valid-username-and-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127433000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141281000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User enters valid UserName \"Username\" and invalid password \"Ahmed435\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Ahmed435\"",
+                  "offset": 59
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_valid_user_name_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 283456000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40545000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28879000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:34.570Z",
+        "line": 49,
+        "name": "Login to trade Journal App with valid Username and invalid Password",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-valid-username-and-invalid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 132103000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139034000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User enters valid UserName \"Username\" and invalid password \"Samir45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Samir45\"",
+                  "offset": 59
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_valid_user_name_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261923000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32467000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32013000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:35.185Z",
+        "line": 50,
+        "name": "Login to trade Journal App with valid Username and invalid Password",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-valid-username-and-invalid-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 126397000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131033000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User enters valid UserName \"Username\" and invalid password \"Ralf123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Ralf123\"",
+                  "offset": 59
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_valid_user_name_and_invalid_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267037000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51066000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32411000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:35.813Z",
+        "line": 62,
+        "name": "Login to trade Journal App with invalid Username and valid Password",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-invalid-username-and-valid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 106352000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168481000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User enters invalid Username \"Ahmaaad32\" and user enters valid PassWord",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ahmaaad32\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_invalid_username_and_user_enters_valid_pass_word(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 278311000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32592000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28905000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@ValidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:36.449Z",
+        "line": 63,
+        "name": "Login to trade Journal App with invalid Username and valid Password",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-invalid-username-and-valid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 107702000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144512000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User enters invalid Username \"Rami54\" and user enters valid PassWord",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rami54\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_invalid_username_and_user_enters_valid_pass_word(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274817000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32623000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35670000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@ValidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-13T05:10:37.061Z",
+        "line": 64,
+        "name": "Login to trade Journal App with invalid Username and valid Password",
+        "description": "",
+        "id": "verify-the-login-page-front-end-components;login-to-trade-journal-app-with-invalid-username-and-valid-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127540000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User navigated to the Trade Journal login Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_navigated_to_the_trade_journal_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152299000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User enters invalid Username \"John123\" and user enters valid PassWord",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John123\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_enters_invalid_username_and_user_enters_valid_pass_word(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261937000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User clicks on Sign in button",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40637000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User should not be directed to the Trade Journal Home Page",
+            "match": {
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.user_should_not_be_directed_to_the_trade_journal_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32743000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "System should display message \"Bad credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bad credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.TradeJournalLoginComponentsSteps.system_should_display_message(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidTradeJournalLogin"
+          },
+          {
+            "name": "@ValidTradeJournalLogin"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Login Page front end components",
+    "description": "  Validate Trade Journal login functionality valid and invalid",
+    "id": "verify-the-login-page-front-end-components",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/TradeJournalLoginFrontEndComponents.feature",
+    "tags": []
+  }
+]

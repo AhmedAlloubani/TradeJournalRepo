@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TradeJournalApp" />
+        <module name="TradeJournalRepo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TradeJournalRepo" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>

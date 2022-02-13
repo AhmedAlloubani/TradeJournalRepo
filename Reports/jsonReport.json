@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-13T05:10:26.374Z",
+        "start_timestamp": "2022-02-13T05:55:26.257Z",
         "line": 34,
         "name": "Login to trade Journal App with invalid credentials",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4726080000,
+              "duration": 2294348000,
               "status": "passed"
             },
             "line": 26,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 194029000,
+              "duration": 106674000,
               "status": "passed"
             },
             "line": 27,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 292479000,
+              "duration": 258512000,
               "status": "passed"
             },
             "line": 28,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 79061000,
+              "duration": 48252000,
               "status": "passed"
             },
             "line": 29,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 40866000,
+              "duration": 19611000,
               "status": "passed"
             },
             "line": 30,
@@ -98,7 +98,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:31.863Z",
+        "start_timestamp": "2022-02-13T05:55:29.035Z",
         "line": 35,
         "name": "Login to trade Journal App with invalid credentials",
         "description": "",
@@ -108,7 +108,7 @@
         "steps": [
           {
             "result": {
-              "duration": 135434000,
+              "duration": 101615000,
               "status": "passed"
             },
             "line": 26,
@@ -120,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 147296000,
+              "duration": 75638000,
               "status": "passed"
             },
             "line": 27,
@@ -142,7 +142,7 @@
           },
           {
             "result": {
-              "duration": 262184000,
+              "duration": 234083000,
               "status": "passed"
             },
             "line": 28,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 66444000,
+              "duration": 45149000,
               "status": "passed"
             },
             "line": 29,
@@ -166,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 36538000,
+              "duration": 17101000,
               "status": "passed"
             },
             "line": 30,
@@ -193,7 +193,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:32.537Z",
+        "start_timestamp": "2022-02-13T05:55:29.517Z",
         "line": 36,
         "name": "Login to trade Journal App with invalid credentials",
         "description": "",
@@ -203,7 +203,7 @@
         "steps": [
           {
             "result": {
-              "duration": 149890000,
+              "duration": 99695000,
               "status": "passed"
             },
             "line": 26,
@@ -215,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 170689000,
+              "duration": 75302000,
               "status": "passed"
             },
             "line": 27,
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 276681000,
+              "duration": 234795000,
               "status": "passed"
             },
             "line": 28,
@@ -249,7 +249,7 @@
           },
           {
             "result": {
-              "duration": 47716000,
+              "duration": 44911000,
               "status": "passed"
             },
             "line": 29,
@@ -261,7 +261,7 @@
           },
           {
             "result": {
-              "duration": 29441000,
+              "duration": 16364000,
               "status": "passed"
             },
             "line": 30,
@@ -288,7 +288,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:33.235Z",
+        "start_timestamp": "2022-02-13T05:55:29.995Z",
         "line": 37,
         "name": "Login to trade Journal App with invalid credentials",
         "description": "",
@@ -298,7 +298,7 @@
         "steps": [
           {
             "result": {
-              "duration": 168410000,
+              "duration": 79766000,
               "status": "passed"
             },
             "line": 26,
@@ -310,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 163545000,
+              "duration": 73966000,
               "status": "passed"
             },
             "line": 27,
@@ -332,7 +332,7 @@
           },
           {
             "result": {
-              "duration": 265025000,
+              "duration": 242334000,
               "status": "passed"
             },
             "line": 28,
@@ -344,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 43656000,
+              "duration": 21347000,
               "status": "passed"
             },
             "line": 29,
@@ -356,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 34093000,
+              "duration": 38025000,
               "status": "passed"
             },
             "line": 30,
@@ -383,7 +383,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:33.932Z",
+        "start_timestamp": "2022-02-13T05:55:30.457Z",
         "line": 48,
         "name": "Login to trade Journal App with valid Username and invalid Password",
         "description": "",
@@ -393,7 +393,7 @@
         "steps": [
           {
             "result": {
-              "duration": 127433000,
+              "duration": 110917000,
               "status": "passed"
             },
             "line": 41,
@@ -405,7 +405,7 @@
           },
           {
             "result": {
-              "duration": 141281000,
+              "duration": 69935000,
               "status": "passed"
             },
             "line": 42,
@@ -427,7 +427,7 @@
           },
           {
             "result": {
-              "duration": 283456000,
+              "duration": 235922000,
               "status": "passed"
             },
             "line": 43,
@@ -439,7 +439,7 @@
           },
           {
             "result": {
-              "duration": 40545000,
+              "duration": 21791000,
               "status": "passed"
             },
             "line": 44,
@@ -451,7 +451,7 @@
           },
           {
             "result": {
-              "duration": 28879000,
+              "duration": 38048000,
               "status": "passed"
             },
             "line": 45,
@@ -478,7 +478,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:34.570Z",
+        "start_timestamp": "2022-02-13T05:55:30.939Z",
         "line": 49,
         "name": "Login to trade Journal App with valid Username and invalid Password",
         "description": "",
@@ -488,7 +488,7 @@
         "steps": [
           {
             "result": {
-              "duration": 132103000,
+              "duration": 110066000,
               "status": "passed"
             },
             "line": 41,
@@ -500,7 +500,7 @@
           },
           {
             "result": {
-              "duration": 139034000,
+              "duration": 67155000,
               "status": "passed"
             },
             "line": 42,
@@ -522,7 +522,7 @@
           },
           {
             "result": {
-              "duration": 261923000,
+              "duration": 245785000,
               "status": "passed"
             },
             "line": 43,
@@ -534,7 +534,7 @@
           },
           {
             "result": {
-              "duration": 32467000,
+              "duration": 44893000,
               "status": "passed"
             },
             "line": 44,
@@ -546,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 32013000,
+              "duration": 14965000,
               "status": "passed"
             },
             "line": 45,
@@ -573,7 +573,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:35.185Z",
+        "start_timestamp": "2022-02-13T05:55:31.428Z",
         "line": 50,
         "name": "Login to trade Journal App with valid Username and invalid Password",
         "description": "",
@@ -583,7 +583,7 @@
         "steps": [
           {
             "result": {
-              "duration": 126397000,
+              "duration": 86344000,
               "status": "passed"
             },
             "line": 41,
@@ -595,7 +595,7 @@
           },
           {
             "result": {
-              "duration": 131033000,
+              "duration": 66393000,
               "status": "passed"
             },
             "line": 42,
@@ -617,7 +617,7 @@
           },
           {
             "result": {
-              "duration": 267037000,
+              "duration": 241780000,
               "status": "passed"
             },
             "line": 43,
@@ -629,7 +629,7 @@
           },
           {
             "result": {
-              "duration": 51066000,
+              "duration": 17556000,
               "status": "passed"
             },
             "line": 44,
@@ -641,7 +641,7 @@
           },
           {
             "result": {
-              "duration": 32411000,
+              "duration": 36509000,
               "status": "passed"
             },
             "line": 45,
@@ -668,7 +668,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:35.813Z",
+        "start_timestamp": "2022-02-13T05:55:31.882Z",
         "line": 62,
         "name": "Login to trade Journal App with invalid Username and valid Password",
         "description": "",
@@ -678,7 +678,7 @@
         "steps": [
           {
             "result": {
-              "duration": 106352000,
+              "duration": 101032000,
               "status": "passed"
             },
             "line": 55,
@@ -690,7 +690,7 @@
           },
           {
             "result": {
-              "duration": 168481000,
+              "duration": 73855000,
               "status": "passed"
             },
             "line": 56,
@@ -708,7 +708,7 @@
           },
           {
             "result": {
-              "duration": 278311000,
+              "duration": 239497000,
               "status": "passed"
             },
             "line": 57,
@@ -720,7 +720,7 @@
           },
           {
             "result": {
-              "duration": 32592000,
+              "duration": 43353000,
               "status": "passed"
             },
             "line": 58,
@@ -732,7 +732,7 @@
           },
           {
             "result": {
-              "duration": 28905000,
+              "duration": 16414000,
               "status": "passed"
             },
             "line": 59,
@@ -754,15 +754,12 @@
             "name": "@InvalidTradeJournalLogin"
           },
           {
-            "name": "@ValidTradeJournalLogin"
-          },
-          {
             "name": "@SmokeTest"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:36.449Z",
+        "start_timestamp": "2022-02-13T05:55:32.363Z",
         "line": 63,
         "name": "Login to trade Journal App with invalid Username and valid Password",
         "description": "",
@@ -772,7 +769,7 @@
         "steps": [
           {
             "result": {
-              "duration": 107702000,
+              "duration": 109891000,
               "status": "passed"
             },
             "line": 55,
@@ -784,7 +781,7 @@
           },
           {
             "result": {
-              "duration": 144512000,
+              "duration": 69743000,
               "status": "passed"
             },
             "line": 56,
@@ -802,7 +799,7 @@
           },
           {
             "result": {
-              "duration": 274817000,
+              "duration": 234326000,
               "status": "passed"
             },
             "line": 57,
@@ -814,7 +811,7 @@
           },
           {
             "result": {
-              "duration": 32623000,
+              "duration": 46896000,
               "status": "passed"
             },
             "line": 58,
@@ -826,7 +823,7 @@
           },
           {
             "result": {
-              "duration": 35670000,
+              "duration": 14316000,
               "status": "passed"
             },
             "line": 59,
@@ -848,15 +845,12 @@
             "name": "@InvalidTradeJournalLogin"
           },
           {
-            "name": "@ValidTradeJournalLogin"
-          },
-          {
             "name": "@SmokeTest"
           }
         ]
       },
       {
-        "start_timestamp": "2022-02-13T05:10:37.061Z",
+        "start_timestamp": "2022-02-13T05:55:32.843Z",
         "line": 64,
         "name": "Login to trade Journal App with invalid Username and valid Password",
         "description": "",
@@ -866,7 +860,7 @@
         "steps": [
           {
             "result": {
-              "duration": 127540000,
+              "duration": 82925000,
               "status": "passed"
             },
             "line": 55,
@@ -878,7 +872,7 @@
           },
           {
             "result": {
-              "duration": 152299000,
+              "duration": 71316000,
               "status": "passed"
             },
             "line": 56,
@@ -896,7 +890,7 @@
           },
           {
             "result": {
-              "duration": 261937000,
+              "duration": 245848000,
               "status": "passed"
             },
             "line": 57,
@@ -908,7 +902,7 @@
           },
           {
             "result": {
-              "duration": 40637000,
+              "duration": 20201000,
               "status": "passed"
             },
             "line": 58,
@@ -920,7 +914,7 @@
           },
           {
             "result": {
-              "duration": 32743000,
+              "duration": 37283000,
               "status": "passed"
             },
             "line": 59,
@@ -940,9 +934,6 @@
         "tags": [
           {
             "name": "@InvalidTradeJournalLogin"
-          },
-          {
-            "name": "@ValidTradeJournalLogin"
           },
           {
             "name": "@SmokeTest"

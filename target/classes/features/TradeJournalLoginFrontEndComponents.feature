@@ -50,7 +50,7 @@ Feature: Verify the Login Page front end components
       | Ralf123  |
 
 
-  @InvalidTradeJournalLogin @ValidTradeJournalLogin @SmokeTest
+  @InvalidTradeJournalLogin  @SmokeTest
   Scenario Outline: Login to trade Journal App with invalid Username and valid Password
     Given User navigated to the Trade Journal login Page
     When User enters invalid Username "<invalidUserName>" and user enters valid PassWord

@@ -1,7 +1,7 @@
 Feature: Verify the Login Page front end components
   Validate Trade Journal login functionality valid and invalid
 
-  @VerifyTradeJournalLoginComponents
+  @VerifyTradeJournalLoginComponents  @Regression
   Scenario: Front End Components are displayed for the Login Page
     Given I am a Trade Journal user
     When User navigate to Trade Journal Login Page
@@ -11,7 +11,7 @@ Feature: Verify the Login Page front end components
 
 
 
-  @ValidTradeJournalLogin @SmokeTest @RegressionTest
+  @ValidTradeJournalLogin @SmokeTest @Regression
   Scenario: Login to Trade Journal App with valid credentials
     Given User navigated to the Trade Journal login Page
     When User enters valid Username and user enters valid Password
@@ -21,7 +21,7 @@ Feature: Verify the Login Page front end components
 
 
 
-  @InvalidTradeJournalLogin  @SmokeTest
+  @InvalidTradeJournalLogin  @SmokeTest @Regression
   Scenario Outline: Login to trade Journal App with invalid credentials
     Given User navigated to the Trade Journal login Page
     When User enters invalid username "<Username>" and invalid password "<Password>"
@@ -36,7 +36,7 @@ Feature: Verify the Login Page front end components
       | Ahmeed4      | SuperAhmed123! |
       | AhmedBoreeni | SuperAhmad     |
 
-  @InvalidTradeJournalLogin  @SmokeTest
+  @InvalidTradeJournalLogin  @SmokeTest @Regression
   Scenario Outline: Login to trade Journal App with valid Username and invalid Password
     Given User navigated to the Trade Journal login Page
     When User enters valid UserName "Username" and invalid password "<Password>"
@@ -50,7 +50,7 @@ Feature: Verify the Login Page front end components
       | Ralf123  |
 
 
-  @InvalidTradeJournalLogin  @SmokeTest
+  @InvalidTradeJournalLogin  @SmokeTest @Regression
   Scenario Outline: Login to trade Journal App with invalid Username and valid Password
     Given User navigated to the Trade Journal login Page
     When User enters invalid Username "<invalidUserName>" and user enters valid PassWord

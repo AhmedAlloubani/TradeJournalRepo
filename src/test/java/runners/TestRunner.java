@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features="src/main/resources/features",
         glue="step_definitions",
         dryRun=false,
-        tags="@InvalidTradeJournalLogin"
+        tags="@SlackChannelFunctionality"
 
 )
 public class TestRunner {

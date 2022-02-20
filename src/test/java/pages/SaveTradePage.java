@@ -18,7 +18,7 @@ public class SaveTradePage {
     public WebElement SavePageTitle;
 
     @FindBy (id = "longTrade")
-    public List<WebElement> buyOrSellOptions;
+    public WebElement buyOrSellOptions;
 
     @FindBy (xpath = "//div/input[@name='symbol']")
     public WebElement symbolField;

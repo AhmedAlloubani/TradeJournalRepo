@@ -53,4 +53,37 @@ public class TradeJournalHomePage {
 
     @FindBy (xpath = "//a[@class='btn btn-danger btn-sm']")
     public List <WebElement> deleteBtn;
+
+    @FindBy(xpath = "//table/tbody/tr[1]/td")
+    public List<WebElement> tradRecord;
+
+
+
+    @FindBy (css = "h1[class='pageHeading']")
+    public  WebElement optionCalPageHeader;
+
+    @FindBy(xpath = "//table/tbody/tr")
+    public List<WebElement> tableRecords;
+
+
+    @FindBy(xpath = "//table/tbody/tr/td[text()='Delta']/following-sibling::td[6]//a[contains(text(),'Update')]")
+    public WebElement deltaUpdate;
+
+    @FindBy(xpath = "//table/tbody/tr/td[text()='Virginia']/following-sibling::td[6]//a[contains(text(),'Update')]")
+    public WebElement deltaUpdate1;
+
+    @FindBy(xpath = "//table/tbody/tr/td[text()='Maryland']/following-sibling::td[6]//a[contains(text(),'Update')]")
+    public WebElement deltaUpdate2;
+
+
+
+
+
+
+
+
+
+
+
+
 }

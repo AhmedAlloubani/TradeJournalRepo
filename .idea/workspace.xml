@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0c50135-9826-422d-ad21-dc793ed92951" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/TradeJournalHomepageFunctions.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_definitions/TradeJournalHomepaageFunctionsSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/htmlReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/htmlReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/jsonReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/jsonReport.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/TradeJournalLoginFrontEndComponents.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/TradeJournalLoginFrontEndComponents.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/TradeJournalHomepageFunctions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/TradeJournalHomepageFunctions.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SaveTradePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SaveTradePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TradeJournalHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TradeJournalHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definitions/TradeJournalHomepaageFunctionsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/TradeJournalHomepaageFunctionsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/TradeJournalHomepageFunctions.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/TradeJournalHomepageFunctions.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/TradeJournalLoginFrontEndComponents.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/TradeJournalLoginFrontEndComponents.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SaveTradePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/SaveTradePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TradeJournalHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/TradeJournalHomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/step_definitions/TradeJournalHomepaageFunctionsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/step_definitions/TradeJournalHomepaageFunctionsSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,6 +61,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">

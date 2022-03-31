@@ -1,3 +1,4 @@
+ @Regression1
 Feature: Verify the Login Page front end components
   Validate Trade Journal login functionality valid and invalid
 

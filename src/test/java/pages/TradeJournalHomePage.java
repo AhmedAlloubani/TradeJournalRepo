@@ -67,13 +67,20 @@ public class TradeJournalHomePage {
 
 
     @FindBy(xpath = "//table/tbody/tr/td[text()='Delta']/following-sibling::td[6]//a[contains(text(),'Update')]")
-    public WebElement deltaUpdate;
+    public WebElement deltaRecord;
 
     @FindBy(xpath = "//table/tbody/tr/td[text()='Virginia']/following-sibling::td[6]//a[contains(text(),'Update')]")
-    public WebElement deltaUpdate1;
+    public WebElement virginiaRecord;
 
     @FindBy(xpath = "//table/tbody/tr/td[text()='Maryland']/following-sibling::td[6]//a[contains(text(),'Update')]")
-    public WebElement deltaUpdate2;
+    public WebElement marylandRecord;
+
+    @FindBy(xpath = "/html/body/div/form/div[2]/comment()")
+    public WebElement symbolError;
+
+    @FindBy (xpath = "//table/tbody/tr/td[text()='Ohio']/following-sibling::td//a[contains(text(),'Delete')]")
+    public WebElement ohioRecord;
+
 
 
 

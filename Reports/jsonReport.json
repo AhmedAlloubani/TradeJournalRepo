@@ -3,78 +3,87 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-20T01:47:02.799Z",
-        "line": 17,
-        "name": "User is able to update a valid trade in the Trade Journal app",
+        "start_timestamp": "2022-03-01T23:41:13.591Z",
+        "line": 6,
+        "name": "As a user of Trade Journal app I should be able to add a trade",
         "description": "",
-        "id": "update-trade-functionality;user-is-able-to-update-a-valid-trade-in-the-trade-journal-app;;2",
+        "id": "trade-journal-application-add-functionality;as-a-user-of-trade-journal-app-i-should-be-able-to-add-a-trade",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2908102000,
+              "duration": 3770397000,
               "status": "passed"
             },
             "line": 7,
-            "name": "User is logged in and on the home page of the Trade Journal app",
+            "name": "I am on the Trade Journal Login page",
             "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_is_logged_in_and_on_the_home_page_of_the_trade_journal_app()"
+              "location": "step_definitions.AddTradeSteps.i_am_on_the_trade_journal_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 163111000,
+              "duration": 782271000,
               "status": "passed"
             },
             "line": 8,
-            "name": "User clicks on Update button for a particular row in the table \"Delta\"",
+            "name": "User is logged in",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Delta\"",
-                  "offset": 63
-                }
-              ],
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_clicks_on_update_button_for_a_particular_row_in_the_table(java.lang.String)"
+              "location": "step_definitions.AddTradeSteps.user_is_logged_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171188000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks add trade button",
+            "match": {
+              "location": "step_definitions.AddTradeSteps.user_clicks_add_trade_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 18666000,
+              "duration": 4487000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "User should be directed to Save Trade page with page heading \"Save Trade\"",
+            "line": 10,
+            "name": "User should be directed to URL \"http://ec2-3-145-116-184.us-east-2.compute.amazonaws.com:8080/records/showFormForAdd\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Save Trade\"",
-                  "offset": 61
+                  "val": "\"http://ec2-3-145-116-184.us-east-2.compute.amazonaws.com:8080/records/showFormForAdd\"",
+                  "offset": 31
                 }
               ],
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_should_be_directed_to_save_trade_page_with_page_heading(java.lang.String)"
+              "location": "step_definitions.AddTradeSteps.user_should_be_directed_to_url(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 231186000,
+              "duration": 410396000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "User updates the values of the record with the following data",
+            "line": 11,
+            "name": "user enters the following into the fields",
             "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_updates_the_values_of_the_record_with_the_following_data(io.cucumber.datatable.DataTable)"
+              "location": "step_definitions.AddTradeSteps.user_enters_the_following_into_the_fields(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
                 "cells": [
-                  "Sell to Open",
-                  "60",
-                  "70"
+                  "Buy to Open",
+                  "Fabinio",
+                  "02-12-2020",
+                  "50.0",
+                  "02-02-2021",
+                  "60.0"
                 ]
               }
             ],
@@ -82,295 +91,56 @@
           },
           {
             "result": {
-              "duration": 228934000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks on the save button",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_clicks_on_the_save_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 518190000,
+              "duration": 226596000,
               "status": "passed"
             },
             "line": 13,
-            "name": "Record should be updated and saved with the new given values",
+            "name": "User clicks on save button",
             "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.record_should_be_updated_and_saved_with_the_new_given_values()"
+              "location": "step_definitions.AddTradeSteps.user_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324289000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "New Trade should be added to the Trade table",
+            "match": {
+              "location": "step_definitions.AddTradeSteps.new_trade_should_be_added_to_the_trade_table()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 109000,
+              "duration": 843422000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "Database is updated with the new updated values",
+            "line": 15,
+            "name": "Trade should be deleted",
             "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.database_is_updated_with_the_new_updated_values()"
+              "location": "step_definitions.AddTradeSteps.trade_should_be_deleted()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@UpdateTradeFunctionalityValid"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-20T01:47:06.931Z",
-        "line": 18,
-        "name": "User is able to update a valid trade in the Trade Journal app",
-        "description": "",
-        "id": "update-trade-functionality;user-is-able-to-update-a-valid-trade-in-the-trade-journal-app;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 641768000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User is logged in and on the home page of the Trade Journal app",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_is_logged_in_and_on_the_home_page_of_the_trade_journal_app()"
-            },
-            "keyword": "Given "
+            "name": "@AddTrade"
           },
           {
-            "result": {
-              "duration": 123639000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on Update button for a particular row in the table \"Virginia\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Virginia\"",
-                  "offset": 63
-                }
-              ],
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_clicks_on_update_button_for_a_particular_row_in_the_table(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 15091000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User should be directed to Save Trade page with page heading \"Save Trade\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Save Trade\"",
-                  "offset": 61
-                }
-              ],
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_should_be_directed_to_save_trade_page_with_page_heading(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 202390000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User updates the values of the record with the following data",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_updates_the_values_of_the_record_with_the_following_data(io.cucumber.datatable.DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Sell to Open",
-                  "60",
-                  "70"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 231144000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks on the save button",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_clicks_on_the_save_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 502318000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Record should be updated and saved with the new given values",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.record_should_be_updated_and_saved_with_the_new_given_values()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 81000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Database is updated with the new updated values",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.database_is_updated_with_the_new_updated_values()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@UpdateTradeFunctionalityValid"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-02-20T01:47:08.662Z",
-        "line": 19,
-        "name": "User is able to update a valid trade in the Trade Journal app",
-        "description": "",
-        "id": "update-trade-functionality;user-is-able-to-update-a-valid-trade-in-the-trade-journal-app;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 743562000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User is logged in and on the home page of the Trade Journal app",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_is_logged_in_and_on_the_home_page_of_the_trade_journal_app()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 106420000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User clicks on Update button for a particular row in the table \"Maryland\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Maryland\"",
-                  "offset": 63
-                }
-              ],
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_clicks_on_update_button_for_a_particular_row_in_the_table(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 35297000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User should be directed to Save Trade page with page heading \"Save Trade\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Save Trade\"",
-                  "offset": 61
-                }
-              ],
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_should_be_directed_to_save_trade_page_with_page_heading(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 189198000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User updates the values of the record with the following data",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_updates_the_values_of_the_record_with_the_following_data(io.cucumber.datatable.DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Sell to Open",
-                  "60",
-                  "70"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 223969000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User clicks on the save button",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.user_clicks_on_the_save_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 515085000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Record should be updated and saved with the new given values",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.record_should_be_updated_and_saved_with_the_new_given_values()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 78000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Database is updated with the new updated values",
-            "match": {
-              "location": "step_definitions.TradeJournalUpdateFunctionalitySteps.database_is_updated_with_the_new_updated_values()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@UpdateTradeFunctionalityValid"
+            "name": "@SmokeTest"
           }
         ]
       }
     ],
-    "name": "Update Trade Functionality",
-    "description": "  User is able to update trades valid\n  user is not able to update trades invalid",
-    "id": "update-trade-functionality",
+    "name": "Trade Journal Application Add Functionality",
+    "description": "       User should be able to add trades",
+    "id": "trade-journal-application-add-functionality",
     "keyword": "Feature",
-    "uri": "file:src/main/resources/features/TradeJournalUpdateTradeFunctionality.feature",
+    "uri": "file:src/main/resources/features/TradeJournalAddTradeFunctionality.feature",
     "tags": []
   }
 ]

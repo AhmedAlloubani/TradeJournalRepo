@@ -146,11 +146,17 @@ public class TradeJournalHomepaageFunctionsSteps {
     public void page_title_should_be(String exp_todayMarketTitle) {
         String actualTitle = Driver.getDriver().getTitle().trim().substring(0, 6).toLowerCase();
         Assert.assertEquals(actualTitle, exp_todayMarketTitle);
+        System.out.println(hp.toolsDropDownOptions.size());
+        System.out.println(hp.toolsDropDownOptions.get(0).getText());
+        System.out.println(hp.toolsDropDownOptions.get(1).getText());
+        System.out.println(hp.toolsDropDownOptions.get(2).getText());
     }
+
     @When("User clicks on {string}")
     public void user_clicks_on(String priceConvertor) {
         hp.toolsDropDownOptions.get(2).click();
     }
+
     @Then("User should be directed to new page titled {string}")
     public void user_should_be_directed_to_new_page_titled(String priceConvertorTitle) {
 

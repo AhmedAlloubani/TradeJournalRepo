@@ -2,7 +2,7 @@ Feature: Trade Journal Application Add Functionality
        User should be able to add trades
 
 
-    @AddTrade
+    @AddTrade   @SmokeTest
   Scenario: As a user of Trade Journal app I should be able to add a trade
     Given I am on the Trade Journal Login page
     And User is logged in

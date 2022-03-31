@@ -40,4 +40,8 @@ public class SaveTradePage {
 
     @FindBy (linkText = "Back to Transactions")
     public WebElement backToTransactionsBtn;
+
+    @FindBy(xpath = "//div[@class='form-inline']/input")
+    public WebElement errorMessags;
+
 }
